@@ -1,6 +1,6 @@
 # WP Security Headres
 
-A simple plugin to organize the headings responsible for the security of your website. At the moment, there is no user interface implanted yet. Settings can be configured directly in the table passed as an argument to the object constructor of the D222_Headers class. You can see how it works by looking at the wp_security_headers.php file. You can currently set the following headers:
+A simple plugin to organize the headers responsible for the security of your website. At the moment, there is no user interface implanted yet. Settings can be configured directly in the table passed as an argument to the object constructor of the D222_Headers class. You can see how it works by looking at the wp_security_headers.php file. You can currently set the following headers:
 
 -------------------------------
 
@@ -52,11 +52,11 @@ Prosty plugin do uporządkowania nagłowków odpowiedzialnych za bezpieczeństwo
 * Strict-Transport-Security
 
 
-If you would like to add base64 nonce to one of the directives in Content-Security-Policy, you can add a nonces table where the key is the name of the directive and the value is the number of nonces that will be generated and sent in the header:
+If you would like to add base64 nonce to one of the directives in Content-Security-Policy, you can add a nonces table where the key is the name of the directive and the value is the number of nonces that will be generated:
 
 -------------------------------
 
-Jeżeli chciałbyś dodać base64 nonce do jednej z dyrektyw w Content-Security-Policy, możesz dodać tablicę nonces gdzie kluczem jest nazwa dyrektywy, a wartością liczba nonce'ów która zostanie wygenerowana i wysłana w nagłówku.
+Jeżeli chciałbyś dodać base64 nonce do jednej z dyrektyw w Content-Security-Policy, możesz dodać tablicę nonces gdzie kluczem jest nazwa dyrektywy, a wartością liczba nonce'ów która zostanie wygenerowana:
 
 
 
