@@ -136,11 +136,12 @@ if( ! class_exists( 'D222_Headers' ) ) {
 		public function send() {
 			header( self::XXSSPROTECTION . self::COLON . $this->x_xss_protection );
 			header( self::XCONTENTTYPEOPTIONS . self::COLON . $this->x_content_type_options );
-			header( self::XFRAMEOPTIONS . self::COLON . $this->x_frame_options);
-			header( self::REFERRERPOLICY . self::COLON . $this->referrer_policy);
-			header( self::XUACOMPATIBLE . self::COLON . $this->x_ua_compatible);
-			header( self::FEATUREPOLICY . self::COLON . $this->feature_policy);
-			header( self::CONTENTSECURITYPOLICY . self::COLON . $this->content_security_policy);
+			header( self::XFRAMEOPTIONS . self::COLON . $this->x_frame_options );
+			header( self::REFERRERPOLICY . self::COLON . $this->referrer_policy );
+			header( self::XUACOMPATIBLE . self::COLON . $this->x_ua_compatible );
+			header( self::FEATUREPOLICY . self::COLON . $this->feature_policy );
+			header( self::CONTENTSECURITYPOLICY . self::COLON . $this->content_security_policy );
+			header( self::STRICTTRANSPORTSECURITY . self::COLON . $this->strict_transport_security );
 		}
 	}
 }
