@@ -56,12 +56,12 @@ if( ! class_exists( 'D222_Headers' ) ) {
 							break;
 						case 'x-xss-protection':
 							if( is_string( $value ) ) {
-								$this->x_frame_options .= $value;
+								$this->x_xss_protection .= $value;
 							}
 							break;
 						case 'x-frame-options':
 							if( is_string( $value ) ) {
-								$this->x_xss_protection .= $value;
+								$this->x_frame_options .= $value;
 							}
 							break;
 						case 'referrer-policy':
