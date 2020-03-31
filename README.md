@@ -1,6 +1,6 @@
 # WP Security Headres
 
-A simple plugin to organize the headers responsible for the security of your website. At the moment, there is no user interface implanted yet. Settings can be configured directly in the table passed as an argument to the object constructor of the D222_Headers class. You can see how it works by looking at the wp_security_headers.php file. You can currently set the following headers:
+A simple plugin to organize the headers responsible for the security of your website. At the moment, there is no user interface implanted yet. Settings can be configured directly in the array passed as an argument to the object constructor of the D222_Headers class. You can see how it works by looking at the wp_security_headers.php file. You can currently set the following headers:
 
 -------------------------------
 
